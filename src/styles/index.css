@@ -1,0 +1,110 @@
+@import url(reset.css);
+body section {
+  width: 100%;
+  height: 100vh;
+}
+body section #header {
+  width: 100%;
+}
+body section #header .top {
+  height: 50px;
+  background-color: #181818;
+}
+body section #header .top p {
+  color: #F9F9F9;
+  font-size: 1em;
+  text-align: center;
+  padding: 1em 0;
+  font-weight: 500;
+}
+body section #header .bottom {
+  height: 50px;
+  background-color: #F9F9F9;
+}
+body section #header .bottom p {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 0.6em 0;
+  font-weight: 600;
+  color: #181818;
+}
+body section #banner {
+  width: 100%;
+  height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/banner.png);
+  display: flex;
+  align-items: center;
+  padding-left: 6em;
+}
+body section #banner .text h2,
+body section #banner .text p {
+  color: #F9F9F9;
+  text-align: left;
+}
+body section #banner .text h2 {
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 0.4em;
+}
+body section #banner .text p {
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 196.19%;
+}
+body section #conteudo {
+  margin: 2em 0;
+}
+body section #conteudo h2 {
+  color: #181818;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 0.4em;
+  font-weight: 600;
+}
+body section #conteudo p {
+  color: #474747;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 4em;
+}
+body section #conteudo .box-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 920px;
+  margin: 0 auto;
+}
+body section #conteudo .box-card .content {
+  display: flex;
+  gap: 10px;
+}
+body section #conteudo .box-card .content .card {
+  width: 250px;
+  height: 250px;
+  background-color: #EBE9EA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body section #conteudo .box-card .content .card img {
+  width: 250px;
+  height: 150px;
+}
+body section #conteudo .box-card .content:first-of-type {
+  padding-bottom: 20px;
+}
+body section #footer {
+  height: 50px;
+  background-color: #181818;
+}
+body section #footer p {
+  color: #F9F9F9;
+  font-size: 1em;
+  text-align: center;
+  padding: 1em 0;
+  font-weight: 500;
+}
